@@ -9,6 +9,7 @@ public class ContaTerminal {
     int numeroConta;
     Float saldo;
 
+//Recebe os dados pelo terminal
         System.out.println("Digite o seu nome");
         nomeCliente = scanner.next();
         System.out.println("Insira a sua agencia");
@@ -18,6 +19,7 @@ public class ContaTerminal {
         System.out.println("Digite o seu saldo");
         saldo = scanner.nextFloat();
 
+//printa as informaçoes que foram passadas
         System.out.print("Ola " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia e"
          + agencia + " conta " + numeroConta + "\n e o seu saldo:" + saldo + "ja esta disponivel");
     }
