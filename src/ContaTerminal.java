@@ -20,7 +20,7 @@ public class ContaTerminal {
         saldo = scanner.nextFloat();
 
 //printa as informaçoes que foram passadas
-        System.out.print("Ola " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia e"
+        System.out.print("Ola " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia e "
          + agencia + " conta " + numeroConta + "\n e o seu saldo:" + saldo + "ja esta disponivel");
     }
 }
